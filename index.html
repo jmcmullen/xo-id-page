@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XO-ID</title>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/viewportchecker.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	
+	<!-- Header -->
+	<section class="hidden header">
+		<div class="content">
+			<a href="https://one-education.org/"><img src="img/logo.png"></a>
+			<div class="menu">
+				<a class="login" href="http://id.one-education.org/#/">Login</a>
+				<a href="http://support.one-education.org/">Support</a>
+			</div>
+		</div>
+	</section>
+	<!-- /Header -->
+
+	<div class="content">
+
+		<!-- Splash -->
+		<section class="intro">
+			<h1 class="hidden">Introducing XO-id</h1>
+			
+			<!-- XO-id Animation -->
+			<style>
+				@-webkit-keyframes dash {
+				  to {
+					stroke-dashoffset: 0;
+				  }
+				}
+
+				@-webkit-keyframes opacity {
+				  to {
+					fill-opacity: 1;
+				  }
+				}
+			</style><center>
+			<svg width="494px" height="313px" viewBox="0 0 494 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+				<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+					<g id="XO-id" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#F18F03">
+						<path fill="#F18F03" fill-opacity="0" d="M40.0017391,0 L451.998261,0 C474.090611,0 492,17.9085923 492,40.0012981 L492,270.998702 C492,293.090809 474.089239,311 451.998261,311 L40.0017391,311 C17.9093886,311 0,293.091408 0,270.998702 L0,40.0012981 C0,17.9091912 17.9107614,0 40.0017391,0 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+						<path fill="#ffffff" d="M287.043183,81.4480712 L432.03374,81.4480712 C441.701331,81.4480712 449.538462,89.2812228 449.538462,98.9486517 C449.538462,108.613955 441.702854,116.449232 432.03374,116.449232 L287.043183,116.449232 C277.375592,116.449232 269.538462,108.616081 269.538462,98.9486517 C269.538462,89.283348 277.374069,81.4480712 287.043183,81.4480712 Z" id="Rectangle-2" sketch:type="MSShapeGroup"></path>
+						<path fill="#ffffff" d="M287.043183,136.993435 L432.03374,136.993435 C441.701331,136.993435 449.538462,144.826586 449.538462,154.494015 C449.538462,164.159319 441.702854,171.994596 432.03374,171.994596 L287.043183,171.994596 C277.375592,171.994596 269.538462,164.161444 269.538462,154.494015 C269.538462,144.828712 277.374069,136.993435 287.043183,136.993435 Z" id="Rectangle-2" sketch:type="MSShapeGroup"></path>
+						<path fill="#ffffff" d="M287.043183,194.550768 L432.03374,194.550768 C441.701331,194.550768 449.538462,202.383919 449.538462,212.051348 C449.538462,221.716652 441.702854,229.551929 432.03374,229.551929 L287.043183,229.551929 C277.375592,229.551929 269.538462,221.718777 269.538462,212.051348 C269.538462,202.386045 277.374069,194.550768 287.043183,194.550768 Z" id="Rectangle-2" sketch:type="MSShapeGroup"></path>
+						<path fill="#ffffff" d="M149.81194,189.407407 L193.483582,145.511871 C200.838806,138.157645 200.379104,126.207028 192.564179,118.393162 C184.749254,110.579297 172.797015,110.349478 165.441791,117.703704 L121.770149,161.59924 L78.0985075,117.703704 C70.7432836,110.349478 58.561194,110.809117 50.9761194,118.393162 C43.3910448,126.207028 42.9313433,138.387464 50.2865672,145.511871 L93.958209,189.407407 L50.9761194,232.613485 C43.6208955,239.967711 44.080597,252.148148 51.6656716,259.962013 C59.480597,267.775878 71.6626866,268.005698 78.7880597,260.651472 L121.770149,217.675214 L164.752239,260.651472 C172.107463,268.005698 184.289552,267.546059 191.874627,259.962013 C199.689552,252.148148 199.919403,239.967711 192.79403,232.613485 L149.81194,189.407407" id="Shape" sketch:type="MSShapeGroup"></path>
+						<path fill="#ffffff" d="M158.316418,82.5413105 C158.316418,102.535613 141.997015,119.082621 122,119.082621 C102.002985,119.082621 85.6835821,102.765432 85.6835821,82.5413105 C85.4537313,62.317189 101.773134,46 121.770149,46 C141.997015,46 158.316418,62.317189 158.316418,82.5413105" id="Shape" sketch:type="MSShapeGroup"></path>
+
+					</g>
+				</g>
+			</svg></center>
+			<script>
+				Array.prototype.slice.apply(document.querySelectorAll("path")).forEach(function(elem) {
+					//console.log(elem.getTotalLength());
+					elem.style.strokeDasharray = elem.getTotalLength();
+					elem.style.strokeDashoffset = elem.getTotalLength();
+					elem.style.webkitAnimation = 'dash 2s ease forwards';
+					if(elem.id === "Rectangle-1") {
+						elem.addEventListener("webkitAnimationEnd", function() {
+							this.style.webkitAnimation = 'opacity 1s ease forwards';
+						},false);    
+					}
+				});
+			</script>
+			<!--/XO-id Animation -->
+			
+			<div class="nav hidden">
+				<a class="button" href="#teacher">Teacher</a>
+				<a class="button" href="#student">Student</a>
+				<a class="button" href="#admin">Admin</a>
+			</div>
+		</section>
+		<!-- /Splash -->
+	
+	<section id="teacher" class="teacher">
+		<h1>Teacher</h1>
+		<div class="group">
+			<div class="left-col">
+				<h3>Step 1.</h3>
+				<p>When you first sign-up you’ll need to enter in something called a “school secret” as an added layer of security.</p>
+				<p>People who don’t know the secret won’t be able to sign-up for an XO-id. The secret is set by your One Education administrator – potentially the principal, deputy, or ICT coordinator. To keep your secrets safe, we can’t tell you what it is… but we can tell you who to talk to! If you get stuck, <a href="/contact">give us a call</a>.</p>	
+			</div>
+			<div class="right-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/sign-up.png">
+			</div>
+			<div class="clearfix spacer"></div>
+			
+			<div class="left-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/profile.png" style="width:400px;">
+			</div>
+			<div class="right-col" style="margin-top: 80px;">
+				
+				<h3>Step 2.</h3>
+				<p>Once signed up, a teacher can go to their profile and change their name or password at any time.</p>
+
+				<p>If you’re on an XO, you can also press the green edit button to create a cute little avatar. Make it look like you, so that your students have an easier time recognising you!</p>
+				
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/edit.png" style="width: 80px">
+			</div>
+			
+			<div class="clearfix spacer"></div>
+			<div class="left-col" style="margin-top: 50px;">
+				<h3>Step 3.</h3>
+				<p>Once you’re all set and signed in, it’s time to create a class!</p>
+
+				<p>Press the green plus in the bottom right, type in a name and select a grade. You can select multiple grades if you have a composite class.</p>
+
+				<p>It’s as easy as that!</p>
+			</div>
+			<div class="right-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/my-classes.png" style="margin-top: 30px; width: 200px;">
+			</div>
+			
+			<div class="clearfix spacer"></div>
+			<div class="left-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/roll.png" style="margin-top: 80px;">
+			</div>
+			<div class="right-col">
+				<h3>Step 4.</h3>
+				<p>Now it’s time to add students to your class.</p>
+				
+				<p>Click the green plus.</p>
+				
+				<p>Fill in the name, gender and indigenous status.</p>
+				
+				<p>Once a student has been added, you’ll be able to search for them in future.</p>
+			</div>
+			
+			
+			<div class="clearfix spacer spacer"></div>
+			<div class="right-col" style="margin-top: 60px;">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/register-lock.png"><br><br>
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/register-unlock.png">
+			</div>
+			<div class="left-col">
+				<h3>Step 5.</h3>
+				<p>Before your students are able to sign-in to their XOs, you will have to unlock your classroom.</p>
+				<p>This is another security feature that keeps student information safe.</p>
+
+				<p>Once unlocked, students have a 20 minute window to request a sign-in on their XO. If they miss the window then, you can always unlock it again.</p>
+			</div>
+			<div class="clearfix spacer"></div>
+		</div>
+	</section>
+		
+		<div class="clearfix">
+					<img src="img/path1.png">
+				</div>
+		
+	<section id="student" class="student">
+		<h1>Student</h1>
+		<div class="group">
+			<div class="clearfix spacer"></div>
+			<div class="left-col">
+				<h3>Step 1.</h3>
+				<p>First things first, let’s make sure the XO knows what school it’s at. This should automatically display your school’s name – but if it doesn’t, then press “Change school” and find your school by name or post code.</p>
+
+				<p>Without the right school, the XO won’t know which teachers to display!</p>
+			</div>
+			<div class="right-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/choose-school.png">
+			</div>
+			
+			
+			<div class="clearfix spacer"></div>
+			
+			<div class="left-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/find-your-teacher.png" style="width: 240px">
+			</div>
+			<div class="right-col" style="margin-top: 15px">
+				<h3>Step 2.</h3>
+				<p>Then the student finds their teacher.</p>
+
+				<p>This is why it’s important to make an accurate avatar that is easy for kids to recognise as you. It’s especially helpful for younger students who are still learning to read.</p>
+			</div>
+			
+			<div class="clearfix spacer"></div>
+			<div class="left-col">
+				<h3>Step 3.</h3>
+				<p>Once the teacher has unlocked the classroom, the students can see a list of their names (and avatars, if they have made them previously.)</p>
+
+				<p>They simply select their own name, and then ask to sign in to their device.</p>
+			</div>
+			<div class="right-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/find-yourself.png" style="margin-top: 60px">
+			</div>
+			
+			
+			<div class="clearfix spacer"></div>
+			<div class="left-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/robohash.png" style="width: 320px; margin-top: 30px;">
+			</div>
+			<div class="right-col">
+				<h3>Step 4.</h3>
+				<p>Every XO will display a unique robot generated from the device serial number when a student signs in. That same robot will appear in the teacher’s class list, next to the student’s name.</p>
+
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/verified-sarah.png">
+
+				<p>The teacher simply verifies that the two robots match – and clicks the orange button. When it changes to green, the student is verified and logged into their device! No need to remember difficult passwords!</p>
+			</div>
+			
+			<div class="clearfix spacer"></div>
+			
+		</div>
+	</section>
+		
+		<div class="clearfix">
+					<img src="img/path2.png">
+				</div>
+	
+		
+	<section id="admin" class="admin">
+		<h1>Admin</h1>
+		<div class="group">
+			
+			<div class="clearfix spacer"></div>
+			<div class="left-col"><br>
+				<p>As an administrator, the security of the school is in your hands.</p>
+
+				<p>It’s your job to verify teacher email addresses, and ensure that there are no impostors or cheeky kids with access to student data.</p>
+
+				<p>…to help with this, we’re also introducing the school secret.</p>
+
+				<p>When you first sign up, you will choose the secret password for your school. Only teachers who know the secret will be able to sign up and join your school. Choose something fabulous!</p>
+			</div>
+			<div class="right-col">
+				<img src="https://www.one-education.org/wp-content/uploads/2015/02/school-secret.png">
+			</div>
+		</div>
+	</section>
+		
+		<div class="clearfix">
+					<img src="img/path3.png">
+				</div>
+</div>
+	
+	
+	<script>
+		$( document ).ready(function() {
+			console.log( "ready!" );
+			setTimeout(function() {
+				$(".hidden").each(function(entry) {
+					$(this).animate({"opacity":1}, 500, function() {
+						//$(".intro").addClass("animated tada");
+					});	
+				});
+			}, 2000);
+			$(".left-col").addClass("hidden-col").viewportChecker({
+				classToAdd: 'animated fadeIn',
+				offset: 300
+			});
+			$(".right-col").addClass("hidden-col").viewportChecker({
+				classToAdd: 'animated fadeIn',
+				offset: 300
+			});
+			$(".clearfix").addClass("hidden-col").viewportChecker({
+				classToAdd: 'animated fadeIn',
+				offset: 300
+			});
+			$("#show-download").addClass("hidden-col").viewportChecker({
+				offset: 400,
+				callbackFunction: function(elem, action) {
+					$(".login").addClass("animated fadeIn");
+				}
+			});
+		});
+	</script>
+
+	<footer>
+    <div class="menu-container">
+        <div class="social">
+            <a href="http://www.facebook.com/one.edu.org" class="facebook" title="Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com/_OneEducation" class="twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>        
+                  
+        <ul id="menu-footer" class="x-nav">
+            <li class="footer-item">
+                <a href="http://one-ed.org/about/">About</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://one-ed.org/people/">People</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://one-ed.org/blog/">Blog</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://support.one-education.org">Support</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://www.one-education.org/dashboard/login/">Dashboard</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://one-ed.org/careers/">Careers</a>
+            </li>
+            <li class="footer-item">
+                <a href="http://one-ed.org/contact/">Contact Us</a>
+            </li>
+        </ul>        
+            
+        <div class="copyright">One Laptop per Child Australia Ltd © 2014</div>
+    </div>
+</footer>
+
+</body>
+</html>
